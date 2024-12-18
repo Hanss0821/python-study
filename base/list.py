@@ -17,7 +17,8 @@ print(list1 * 3)
 
 # list function
 friends = ['Wilson', 'Mike', 'Nelson', 'Greg', 'Jimmy']
-
+friends.insert(7, 'Nancy')
+print(friends)
 # insert 任意位置插入，其余后移
 friends.insert(3, "Aaron")
 # remove 移除特定元素(传入元素)
@@ -43,3 +44,4 @@ y[0] = 0
 y[1]['name'] = 'b'
 print(x[len(x) - 1])
 print(x)
+print(len(friends))
