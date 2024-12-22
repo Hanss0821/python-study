@@ -45,3 +45,8 @@ y[1]['name'] = 'b'
 print(x[len(x) - 1])
 print(x)
 print(len(friends))
+print(",".join(friends))
+
+a = "ABCD"
+if "A" in a:
+    print("yes")
